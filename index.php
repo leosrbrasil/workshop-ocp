@@ -2,7 +2,8 @@
 echo "<h1>Openshift Workshop v2.0</h1> ";
 echo $_SERVER['SERVER_ADDR'];
 echo "<br><hr>";
-echo "<br>param=#{aaa}";
+echo "<br>param=#{aaa}<br>";
+echo #{aaa};
 echo "<h2>Cidades cadastradas no Banco de Dados:</h2>";
 $conn = new mysqli("mysql", "redhat", "redhat@123", "workshop");
 if ($conn->connect_error) {
